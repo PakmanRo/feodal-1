@@ -1,0 +1,51 @@
+$inform-border: url('../../../../../assets/UI/villageUI/villageInfo.png');
+
+.village-inform-panel {
+    position: relative;
+    box-sizing: border-box;
+    width: 500px;
+    height: 100px;
+
+    background-image: $inform-border;
+    & > progress[value]::-webkit-progress-bar {
+        background-color: rgb(43, 33, 19);
+    }
+    & > progress[value]::-webkit-progress-value {
+        background-color: rgb(113, 190, 12);
+    }
+}
+
+.village-population {
+    position: absolute;
+    color: white;
+    top: 17px;
+    left: 45px;
+    font-size: 16px;
+}
+
+.village-hp-bar {
+    position: absolute;
+    width: 492px;
+    height: 11px;
+    background-color: red;
+    bottom: 4px;
+    left: 4px;
+}
+
+.rob-village-button, .attack-village-button {
+    position: absolute;
+    top: 8px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0;
+}
+
+.rob-village-button {
+    left: 129px;
+}
+.attack-village-button {
+    left: 271px;
+}

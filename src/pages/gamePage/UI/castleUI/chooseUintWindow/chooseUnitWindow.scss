@@ -1,0 +1,72 @@
+$withdraw-panel: url('../../../../../assets/UI/CastleUI/unitsWithdrawPanel.png');
+
+.choose-units-ui {
+    position: absolute;
+    box-sizing: border-box;
+    top: -180%;
+    left: 7%;
+    width: 800px;
+    height: 400px;
+
+    background-image: $withdraw-panel;
+    background-position: center;
+
+    &.units-interface-hide {
+        opacity: 0;
+        transform: translateY(1200px);
+        transition: 1s;
+    }
+
+    &.units-interface-show {
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+.close-units-ui{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    box-sizing: border-box;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 0;
+    
+    outline: none;
+}
+
+.withdraw-army-button {
+    position: absolute;
+    left: 40%;
+    box-sizing: border-box;
+    padding: 0;
+    bottom: 0;
+    width: 80px;
+    height: 30px;
+
+    transform: translateX(-50%);
+
+    background: transparent;
+    border: 0;
+    
+    outline: none;
+}
+
+.withdraw-all-units {
+    position: absolute;
+    left: 60%;
+    box-sizing: border-box;
+    padding: 0;
+    bottom: 0;
+    width: 80px;
+    height: 30px;
+
+    transform: translateX(-50%);
+
+    background: transparent;
+    border: 0;
+    
+    outline: none;
+}

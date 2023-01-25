@@ -1,0 +1,46 @@
+@import '../../../../../gameConst.scss';
+
+.stop-active,
+.stop-inactive {
+    width: 155px;
+    height: 21px;
+    fill: none;
+}
+
+.stop-active {
+    & > .stop-button-icon {
+        fill: $much-brighter-stone;
+    }
+    & > .stop-button-icon-circle {
+        stroke: $much-brighter-stone;
+    }
+    & > .stop-button-background {
+        fill: $stop-button-color-triggered;
+        stroke: $much-brighter-stone;
+    }
+}
+
+.stop-inactive {
+    & > .stop-button-icon {
+        fill: $brighter-stone;
+    }
+    & > .stop-button-icon-circle {
+        stroke: $brighter-stone;
+    }
+    & > .stop-button-background {
+        fill: $wooden-background;
+        stroke: $brighter-stone;
+    }
+    &:hover {
+        & > .stop-button-icon {
+            fill: $much-brighter-stone;
+        }
+        & > .stop-button-icon-circle {
+            stroke: $much-brighter-stone;
+        }
+        & > .stop-button-background {
+            fill: $stop-button-color;
+            stroke: $much-brighter-stone;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+"DataBase":{
+	"host": "localhost",
+	"port": "3306",
+	"name": "feodal",
+	"user": "root",
+	"password":""
+	},
+	"Game": {
+		"intervalUpdateVillage": 5,
+		"intervalRentMinutes": 60
+	}
+}

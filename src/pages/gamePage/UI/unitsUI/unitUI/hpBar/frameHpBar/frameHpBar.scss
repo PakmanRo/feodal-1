@@ -1,0 +1,11 @@
+@import '../../../../../gameConst.scss';
+
+.unit-hp-bar-frame {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    width: 646px;
+    height: 11px;
+    fill: none;
+    z-index: 2;
+}

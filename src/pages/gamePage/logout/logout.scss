@@ -1,0 +1,21 @@
+@import '../../../const.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.logout-box {
+    position: absolute;
+    z-index: 100;
+    top: 2%;
+    right: 15px;
+}
+
+.logout-button {
+    width: 51px;
+    height: 51px;
+    padding: 0;
+    background: transparent;
+    border-radius: 50%;
+    border: 0;
+
+    outline: none;
+}
+
